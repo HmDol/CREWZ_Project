@@ -47,6 +47,7 @@ div{
 
 /*home.html*/
 
+
 .home-img {
 	max-height:500px;
 }
@@ -66,8 +67,28 @@ div{
 
 
 
+/*소모임.html*/
+.somoim_div{
+	background-color: #FAFAFA;
+	border-radius : .5rem;
+	margin : 20px 0 ;
+	padding: 20px 0;
+	
+}
 
-
+.somoim_img{
+	
+}
+.mb-5 {
+	 margin-bottom: 20px;
+	 
+}
+.somoim_content{
+	padding-left : 30px;
+}
+.somoim_join_btn{
+	width : 80%
+}
 </style>
 <body class="container">
 <br>
@@ -76,7 +97,7 @@ div{
 	<div class="row align-items-center">
 		<div class="col-2"><img src="C:\Users\vtwin\OneDrive\바탕 화면\logo.png" class="img-fluid" id="logo" alt="..."></div>
 		<div class="col-9"><input class="form-control" type="text" placeholder="Default input" aria-label="default input example"></div>
-		<div class="col-1"><img src="C:\Users\vtwin\OneDrive\바탕 화면\버튼.png" class="img-fluid" id="search-btn" alt="..."></di>
+		<div class="col-1"><img src="C:\Users\vtwin\OneDrive\바탕 화면\버튼.png" class="img-fluid" id="search-btn" alt="..."></div>
 	</div>
 	
 	
@@ -174,7 +195,59 @@ div{
 		  <!--홈화면 끝-->
 		</div>
 	  <div class="tab-pane fade" id="pills-picture" role="tabpanel" aria-labelledby="pills-picture-tab" tabindex="0">사진첩</div>
-	  <div class="tab-pane fade" id="pills-somoim" role="tabpanel" aria-labelledby="pills-somoim-tab" tabindex="0">소모임</div>
+	  <div class="tab-pane fade" id="pills-somoim" role="tabpanel" aria-labelledby="pills-somoim-tab" tabindex="0">
+		  
+		  
+		<!--소모임 시작-->
+		  <div  class="text-start">
+			<div class="row somoim_div">
+				<div class="col-3 somoim_img">
+					<img src="https://www.kkday.com/ko/blog/wp-content/uploads/korea_jeju_rainbow_coastal_road_4.jpg" class="img-fluid" alt="왜 없누 ㅠㅠ">
+				</div> 
+				<div class="col-7">
+					<h4 class="fw-bold">제주도 여행 인원 구해요!</h4>
+					<br>
+					<p>남녀노소 누구나 상관없어요. 함께 제주도여행할 크루워들 구합니다.</p>
+					<br>
+					일시 : <span>2023.12.25</span> ~ <span>2023.12.28</span>(<span>3 </span>박 <span>4</span>일)<br>
+					여행지 : <span>제주도</span><br>
+					집결 장소 및 시간 : <span>인천공항</span><br>
+					참석 : ?? / ??
+				</div>
+				<div class="col-2 align-self-end">
+					 <button type="button" class="somoim_join_btn shadow btn btn-danger">가입하기</button> 
+				</div> 
+				 
+				
+			</div>
+			<div class="row somoim_div">
+				<div class="col-3 somoim_img">
+					<img src="https://www.kkday.com/ko/blog/wp-content/uploads/korea_jeju_rainbow_coastal_road_4.jpg" class="img-thumbnail" alt="왜 없누 ㅠㅠ">
+				</div> 
+				<div class="col-7">
+					<table>
+						<tr> <th colspan=2 class="fs-3">가평 폼 미쳤다 </th></tr>
+						<tr> <th style="height:10px;"></th></tr>
+						<tr> <th colspan=2 class="fs-6">함께 가평에서 물놀이할 사람 급구!!!</th> </tr>
+						<tr> <th style="height:30px;"></th></tr>
+						<tr> <th>일&emsp;시</th> <td class="somoim_content"><span>2023.11.25</span> ~ <span>2023.11.28</span>(<span>3 </span>박 <span>4</span>일)</td> </tr>
+						<tr> <th>여행지</th> <td class="somoim_content">경기도 가평</td> </tr>
+						<tr> <th>집&emsp;결</th> <td class="somoim_content">서울역 1번 주차</td> </tr>
+						<tr> <th>인&emsp;원</th> <td class="somoim_content"><span>2</span> / <span>5</span></td> </tr>	
+					</table>
+					
+				</div>
+				<div class="col-2 align-self-end">
+					 <button type="button" class="somoim_join_btn shadow btn btn-danger">가입하기</button> 
+				</div> 
+				 
+				
+			</div>
+		</div>
+	<!--소모임 끝-->
+		  
+		  
+	  </div>
 	  <div class="tab-pane fade" id="pills-review" role="tabpanel" aria-labelledby="pills-review-tab" tabindex="0">후기</div>
 	</div>
 	
